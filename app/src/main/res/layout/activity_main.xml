@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Quote of the Day -->
+    <TextView
+        android:id="@+id/txtQuoteOfTheDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quote of the Day"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:background="#EEEEEE"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Category Buttons -->
+    <Button
+        android:id="@+id/btnComedy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comedy Quotes" />
+
+    <Button
+        android:id="@+id/btnFunny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Funny Quotes"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnLove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Love Quotes"
+        android:layout_marginTop="12dp" />
+
+    <!-- Single Favourites Button -->
+    <Button
+        android:id="@+id/btnFavourites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favourites"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
